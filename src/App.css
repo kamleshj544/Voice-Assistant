@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Satisfy', cursive;
+}
+
+body, html, #root {
+  height: 100%;
+  background-color: #121212;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #0f2027;
+  text-align: center;
+  position: relative;
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 0 15px #28a745;
+  object-fit: cover;
+}
+
+#name {
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+  color: #20c997;
+  margin-bottom: 20px;
+}
+
+#btn {
+  width: 60%;
+  background: linear-gradient(to right, #17a2b8, #6610f2);
+  padding: 12px;
+  margin: 15px auto;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 10px #6610f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+#btn:hover {
+  box-shadow: 0 0 25px #17a2b8, 0 0 25px #6610f2;
+}
+
+#Voice {
+  width: 70px;
+  height: 70px;
+}
+
+.transcript-box {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-style: italic;
+  color: #adb5bd;
+  min-height: 1.4rem;
+}
+
+.settings-btn {
+  background: #20c997;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: #121212;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 10px auto 20px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.settings-btn:hover {
+  background: #17a2b8;
+  color: white;
+}
+
+.chat-box {
+  max-height: 150px;
+  overflow-y: auto;
+  text-align: left;
+  padding: 10px;
+  background: rgba(255 255 255 / 0.1);
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0 0 0 / 0.5);
+}
+
+.chat-message {
+  margin-bottom: 8px;
+  line-height: 1.3;
+  font-size: 0.9rem;
+}
+
+.user-message {
+  color: #ffc107;
+}
+
+.jarvis-message {
+  color: #20c997;
+}
+
+/* Settings Panel styles */
+.settings-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 18, 18, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.settings-container {
+  background: #212529;
+  padding: 30px;
+  border-radius: 20px;
+  width: 340px;
+  color: #ced4da;
+  box-shadow: 0 0 20px #20c997;
+}
+
+.settings-container h2 {
+  margin-bottom: 25px;
+  color: #20c997;
+  font-weight: 700;
+}
+
+.settings-container label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.settings-container input[type="range"],
+.settings-container select {
+  width: 100%;
+  margin-top: 8px;
+  padding: 5px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+.settings-container button {
+  margin-top: 15px;
+  padding: 10px 0;
+  background: #20c997;
+  color: #121212;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.settings-container button:hover {
+  background-color: #17a2b8;
+}
