@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kamleshj544/Voice-Assistant/static/css/main.249bfeb1.css",
+    "main.js": "/kamleshj544/Voice-Assistant/static/js/main.b31282eb.js",
+    "index.html": "/kamleshj544/Voice-Assistant/index.html",
+    "main.249bfeb1.css.map": "/kamleshj544/Voice-Assistant/static/css/main.249bfeb1.css.map",
+    "main.b31282eb.js.map": "/kamleshj544/Voice-Assistant/static/js/main.b31282eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.249bfeb1.css",
+    "static/js/main.b31282eb.js"
+  ]
+}
