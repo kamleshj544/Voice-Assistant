@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kamleshj544/Voice-Assistant/static/css/main.249bfeb1.css",
-    "main.js": "/kamleshj544/Voice-Assistant/static/js/main.b31282eb.js",
-    "index.html": "/kamleshj544/Voice-Assistant/index.html",
-    "main.249bfeb1.css.map": "/kamleshj544/Voice-Assistant/static/css/main.249bfeb1.css.map",
-    "main.b31282eb.js.map": "/kamleshj544/Voice-Assistant/static/js/main.b31282eb.js.map"
+    "main.css": "/Voice-Assistant/static/css/main.249bfeb1.css",
+    "main.js": "/Voice-Assistant/static/js/main.b31282eb.js",
+    "index.html": "/Voice-Assistant/index.html",
+    "main.249bfeb1.css.map": "/Voice-Assistant/static/css/main.249bfeb1.css.map",
+    "main.b31282eb.js.map": "/Voice-Assistant/static/js/main.b31282eb.js.map"
   },
   "entrypoints": [
     "static/css/main.249bfeb1.css",
